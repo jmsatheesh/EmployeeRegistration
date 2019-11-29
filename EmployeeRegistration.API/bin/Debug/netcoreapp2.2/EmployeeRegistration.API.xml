@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeRegistration.API</name>
+    </assembly>
+    <members>
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.GetAll">
+            <summary>
+            Retrives all employee details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.GetById(System.Int32)">
+            <summary>
+            Retrives all employee by given id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.Post(EmployeeRegistration.API.Core.Models.Employee)">
+            <summary>
+            Create a new employee registration
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.Put(System.Int32,EmployeeRegistration.API.Core.Models.Employee)">
+            <summary>
+            Updates an existing registration
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.Delete(System.Int32)">
+            <summary>
+            Delete an existing registration
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.deps.json
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.runtimeconfig.json
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.runtimeconfig.dev.json
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.dll
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.pdb
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.csproj.CoreCompileInputs.cache
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.RazorAssemblyInfo.cache
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.RazorAssemblyInfo.cs
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.AssemblyInfoInputs.cache
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.AssemblyInfo.cs
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.RazorTargetAssemblyInfo.cache
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.dll
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.pdb
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.xml
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.csprojAssemblyReference.cache
