@@ -24,8 +24,10 @@ namespace EmployeeRegistration.API.Persistence
         }
 
         public async Task<T> GetByIdAsync(object id)
-        {
-            return await table.FindAsync(id);
+        {            
+            var entity= await table.FindAsync(id);
+            _context.Entry(entity).State = EntityState.Detached;
+            return entity;
         }
 
         public async void Add(T entity)
@@ -34,7 +36,7 @@ namespace EmployeeRegistration.API.Persistence
         }
 
         public async void Update(T entity)
-        {
+        { 
             table.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }

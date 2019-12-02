@@ -27,9 +27,9 @@ C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcore
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\EmployeeRegistration.dll
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\EmployeeRegistration.pdb
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\EmployeeRegistration.csproj.CopyComplete
-C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\EmployeeRegistration.csprojAssemblyReference.cache
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Create.g.cshtml.cs
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Delete.g.cshtml.cs
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Details.g.cshtml.cs
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Edit.g.cshtml.cs
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\EmployeeRegistration.csprojAssemblyReference.cache

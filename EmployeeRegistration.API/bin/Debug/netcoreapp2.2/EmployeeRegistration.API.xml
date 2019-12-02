@@ -17,20 +17,20 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.Post(EmployeeRegistration.API.Core.Models.Employee)">
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.CreateRegistration(EmployeeRegistration.API.Core.Models.Employee)">
             <summary>
             Create a new employee registration
             </summary>
             <param name="value"></param>
         </member>
-        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.Put(System.Int32,EmployeeRegistration.API.Core.Models.Employee)">
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.UpdateRegistration(System.Int32,EmployeeRegistration.API.Core.Models.Employee)">
             <summary>
             Updates an existing registration
             </summary>
             <param name="id"></param>
             <param name="value"></param>
         </member>
-        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.Delete(System.Int32)">
+        <member name="M:EmployeeRegistration.API.Controllers.RegistrationController.DeleteRegistration(System.Int32)">
             <summary>
             Delete an existing registration
             </summary>

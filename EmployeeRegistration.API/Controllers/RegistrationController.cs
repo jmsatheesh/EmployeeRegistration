@@ -28,7 +28,17 @@ namespace EmployeeRegistration.API.Controllers
         [HttpGet("GetAllEmployee")]
         public Task<IEnumerable<Employee>> GetAll()
         {
-            return _repository.GetAllAsync();
+            try
+            {
+                return _repository.GetAllAsync();
+            }
+            catch (Exception ex)
+            {
+                //Log exception
+                return null;
+
+            }
+
         }
 
         /// <summary>
@@ -39,7 +49,16 @@ namespace EmployeeRegistration.API.Controllers
         [HttpGet("GetEmployeeById/{id}")]
         public Task<Employee> GetById(int id)
         {
-            return _repository.GetByIdAsync(id);
+            try
+            {
+                return _repository.GetByIdAsync(id);
+            }
+            catch (Exception ex)
+            {
+                //Log exception
+                return null;
+            }
+
         }
 
         /// <summary>
@@ -47,11 +66,31 @@ namespace EmployeeRegistration.API.Controllers
         /// </summary>
         /// <param name="value"></param>
         [HttpPost("CreateRegistration")]
-        public async void Post([FromBody] Employee objEmployee)
+        public async Task<Employee> CreateRegistration([FromBody] Employee objEmployee)
         {
-            objEmployee.ModifiedDate = DateTime.Now;
-            _repository.Add(objEmployee);
-            _repository.Save();
+            try
+            {
+                if (!ModelState.IsValid)
+                    return null;
+
+                objEmployee.ModifiedDate = DateTime.Now;
+                _repository.Add(objEmployee);
+                _repository.Save();
+                return objEmployee;
+            }
+            catch (Exception ex)
+            {
+                //Log exception
+                return null;
+            }
+        }
+
+        private bool EmployeeExists(int id)
+        {
+            if (GetById(id) == null)
+                return false;
+            else
+                return true;
         }
 
         /// <summary>
@@ -60,10 +99,25 @@ namespace EmployeeRegistration.API.Controllers
         /// <param name="id"></param>
         /// <param name="value"></param>
         [HttpPut("UpdateRegistration/{id}")]
-        public void Put(int id, [FromBody] Employee objEmployee)
+        public async Task<Employee> UpdateRegistration(int id, [FromBody] Employee objEmployee)
         {
-            _repository.Update(objEmployee);
-            _repository.Save();
+            try
+            {
+                if (EmployeeExists(id))
+                {
+                    _repository.Update(objEmployee);
+                    _repository.Save();
+                    return objEmployee;
+                }
+                return null;
+
+            }
+            catch (Exception ex)
+            {
+                //Log exception
+                return null;
+            }
+
         }
 
         /// <summary>
@@ -71,11 +125,24 @@ namespace EmployeeRegistration.API.Controllers
         /// </summary>
         /// <param name="id"></param>
         [HttpDelete("DeleteRegistration/{id}")]
-        public async void Delete(int id)
+        public async Task<int> DeleteRegistration(int id)
         {
-            _repository.Remove(id);
-            _repository.Save();
-            //await _unitOfWork.CompleteAsync();
+            try
+            {
+                var employee = _repository.GetByIdAsync(id);
+                if (employee != null)
+                {
+                    _repository.Remove(id);
+                    _repository.Save();
+                    return id;
+                }
+                return 0;
+            }
+            catch (Exception ex)
+            {
+                //Log exception
+                return 0;
+            }
         }
     }
 }

@@ -49,6 +49,12 @@ namespace EmployeeRegistration.API
             services.AddDbContext<RegistrationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            //services.AddAuthentication()
+            //    .AddGoogle(options =>
+            //    {
+            //        options.ClientId = "651810652286-6ol14jtqqladmo6c1aokcbi968spedpe.apps.googleusercontent.com";
+            //        options.ClientSecret = "jy3eqhFbVgG9TyrpEP-lbf6G";
+            //    });
             
         }
 

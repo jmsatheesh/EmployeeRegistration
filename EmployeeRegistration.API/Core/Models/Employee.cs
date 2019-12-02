@@ -27,5 +27,10 @@ namespace EmployeeRegistration.API.Core.Models
         public string Email { get; set; }
 
         public DateTime ModifiedDate { get; set; }
+
+        public static implicit operator Task<object>(Employee v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
