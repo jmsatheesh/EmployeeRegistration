@@ -85,13 +85,7 @@ namespace EmployeeRegistration.API.Controllers
             }
         }
 
-        private bool EmployeeExists(int id)
-        {
-            if (GetById(id) == null)
-                return false;
-            else
-                return true;
-        }
+
 
         /// <summary>
         /// Updates an existing registration
@@ -103,13 +97,11 @@ namespace EmployeeRegistration.API.Controllers
         {
             try
             {
-                if (EmployeeExists(id))
-                {
-                    _repository.Update(objEmployee);
-                    _repository.Save();
-                    return objEmployee;
-                }
-                return null;
+
+                _repository.Update(objEmployee);
+                _repository.Save();
+                return objEmployee;
+
 
             }
             catch (Exception ex)
@@ -129,14 +121,10 @@ namespace EmployeeRegistration.API.Controllers
         {
             try
             {
-                var employee = _repository.GetByIdAsync(id);
-                if (employee != null)
-                {
-                    _repository.Remove(id);
-                    _repository.Save();
-                    return id;
-                }
-                return 0;
+                _repository.Remove(id);
+                _repository.Save();
+                return id;
+
             }
             catch (Exception ex)
             {

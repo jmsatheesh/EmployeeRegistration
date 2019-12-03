@@ -12,4 +12,3 @@ C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\net
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.dll
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.pdb
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\bin\Debug\netcoreapp2.2\EmployeeRegistration.API.xml
-C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration.API\obj\Debug\netcoreapp2.2\EmployeeRegistration.API.csprojAssemblyReference.cache

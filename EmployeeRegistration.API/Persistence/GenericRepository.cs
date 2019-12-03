@@ -17,26 +17,24 @@ namespace EmployeeRegistration.API.Persistence
             this._context = context;
             table = _context.Set<T>();
         }
-        
+
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await table.ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(object id)
-        {            
-            var entity= await table.FindAsync(id);
-            _context.Entry(entity).State = EntityState.Detached;
-            return entity;
+        {
+            return await table.FindAsync(id);              
         }
 
         public async void Add(T entity)
-        { 
-            table.Add(entity); 
+        {
+            table.Add(entity);
         }
 
         public async void Update(T entity)
-        { 
+        {
             table.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }
@@ -50,6 +48,6 @@ namespace EmployeeRegistration.API.Persistence
         public async void Save()
         {
             _context.SaveChanges();
-        } 
+        }
     }
 }

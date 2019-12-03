@@ -32,4 +32,3 @@ C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcore
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Details.g.cshtml.cs
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Edit.g.cshtml.cs
 C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
-C:\Satheesh\Projects\EmployeeRegistration\EmployeeRegistration\obj\Debug\netcoreapp2.2\EmployeeRegistration.csprojAssemblyReference.cache
