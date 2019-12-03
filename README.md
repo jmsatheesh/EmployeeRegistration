@@ -1,6 +1,3 @@
-# EmployeeRegistration
-Initial Commit
-
 This is a simple .Net core application for perform CRUD operations for a employee registration form.
 
 
