@@ -49,10 +49,9 @@ namespace Registration
                     IConfigurationSection googleAuthNSection =
                         Configuration.GetSection("Authentication:Google");
 
-                    //options.ClientId = "651810652286-2dhb870iicugpgb0dmiiu6g6vkpbflvp.apps.googleusercontent.com";
-                    //options.ClientSecret = "LlihiM9rOTrjMN8LhBUQ9FyW";
-                    options.ClientId = "382799126999-n6h7p0he7ha4ipaoer28rq7j1ujv35po.apps.googleusercontent.com";
-                    options.ClientSecret = "quYrSZImRiAfS_TO2Agcdsqs"; 
+                  
+                    options.ClientId = " ";
+                    options.ClientSecret = " "; 
                 });
         }
 
